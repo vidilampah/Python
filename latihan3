@@ -1,0 +1,11 @@
+print "############################################"
+print "#                                          #"
+print "#          ALGORITMA & PEMROGRAMAN         #"
+print "#               Vidi Lampah                #"
+print "############################################"
+print
+print ":::MENGHITUNG LUAS PERSEGI PANJANG:::"
+panjang=raw_input("Masukan Panjang :")
+lebar=raw_input("Masukan Lebar :")
+C=int(panjang)*int(lebar)
+print "Luas :",C
