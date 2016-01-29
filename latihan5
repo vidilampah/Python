@@ -1,0 +1,18 @@
+print
+print "############################################"
+print "#                                          #"
+print "#          ALGORITMA & PEMROGRAMAN         #"
+print "#               Vidi Lampah                #"
+print "#                                          #"
+print "############################################"
+
+print
+
+A="instimewa"
+B="baik"
+C="cukp"
+Nhuruf="B"
+if Nhuruf=="A":
+    print "istimewa"
+
+%print
