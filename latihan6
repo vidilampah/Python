@@ -1,0 +1,57 @@
+print "############################################"
+print "#                                          #"
+print "#          ALGORITMA & PEMROGRAMAN         #"
+print "#               Vidi Lampah                #"
+print "#                                          #"
+print "############################################"
+print
+for expr1 in sequence1:
+    if not (condition1):
+        continue   # Skip this element
+    for expr2 in sequence2:
+        if not (condition2):
+            continue # Skip this element
+nama=raw_input("Nama :")
+continue
+nik=raw_input("Nik :")
+mtk=raw_input("Matakuliah :")
+uts=raw_input("Nilai UTS :")
+uas=raw_input("Nilai UAS :")
+tugas=raw_input("Nilai Tugas :")
+Nrata=(int(uts)+int(uas)+int(tugas))/3
+
+
+
+if Nrata>=95:
+    Nhuruf="A"
+    ket="Istimewah"
+    print Nhuruf
+    print ket
+elif Nrata>=85:
+    Nhuruf="B"
+    ket="Baik"
+elif Nrata>=75:
+    Nhuruf="C"
+    ket="Cukup"
+elif Nrata>=65:
+    Nhuruf="D"
+    ket="Lumayan"
+elif Nrata<65:
+    Nhuruf="E"
+    ket="Kurang"
+
+
+print
+print
+print "----------------------"
+print "| ::: DATA NILAI ::: |"
+print "----------------------"
+print "Nama        :",nama
+print "NIK         :",nik
+print "Rata-rata   :",float(Nrata)
+print "Nilai Huruf :",Nhuruf
+print "Keterangan  :",ket
+
+
+
+
