@@ -1,0 +1,12 @@
+print "############################################"
+print "#                                          #"
+print "#          ALGORITMA & PEMROGRAMAN         #"
+print "#               Vidi Lampah                #"
+print "#                                          #"
+print "############################################"
+print
+A=50
+if A>=100:
+    print"hebat"
+else :
+    print "kurang hebat"
