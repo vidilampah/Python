@@ -1,0 +1,14 @@
+Nama=raw_input("Nama :")
+Umur=raw_input("Umur :")
+Tmp_Lahir=raw_input("Tempat Lahir :")
+Tgl_Lahir=raw_input("Tanggal Lahir (tgl,bulan,tahun):")
+Alamat=raw_input("Alamat :")
+Tentang_Diri_Anda=raw_input("Komentar :")
+
+print "########################"
+print "#                      #"
+print "#    DATA DIRI NADA    #"
+print "#                      #"
+print "########################"
+
+print "Nama :",Nama,"\n","Umur :",Umur,"\n","Alamat :", Alamat,"\n","TTL :",Tmp_Lahir,",",Tgl_Lahir,"\n","Komentar :",Tentang_Diri_Anda
